@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="Home.html">
+                <img src="logo-international.jpg" alt="Company Logo">
+            </a>
+            <ul class="nav-left">
+                <li class="dropdown">
+                    <a href="vehicles.html" class="dropbtn">Vehicles</a>
+                    <div class="dropdown-content">
+                        <a href="#toyota1">
+                            <img src="wigooolan.jpg" alt="Toyota Model 1" class="dropdown-img">
+                            <span>Hatchback</span>
+                        </a>
+                        <a href="#toyota2">
+                            <img src="landing.jpg" alt="Toyota Model 2" class="dropdown-img">
+                            <span>Sedan</span>
+                        </a>
+                        <a href="#toyota3">
+                            <img src="landing (1).jpg" alt="Toyota Model 3" class="dropdown-img">
+                            <span>SUV</span>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="spare-parts.html">Spare Parts</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <ul class="nav-right">
+                <li><a href="register.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <!-- <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="top-feature44.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="top-feature44.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="top-feature44.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+        
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="top-feature44.jpg" >
+                    <!-- <div class="slide-text">"Toyota Hilux: Unyielding Strength Meets Unmatched Versatility"</div> -->
+                </div>
+                <div class="slide">
+                    <img src="FORTUNER.jpg" >
+                    <!-- <div class="slide-text">"Experience the Adventure: Toyota SUV - Where Power Meets Comfort"</div> -->
+                </div>
+                <div class="slide">
+                    <img src="Mobile-App-2.jpg" >
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+    <div class="container" >
+        <p style="margin-left:10%;"><span>INSIDE</span> TOYOTA LANKA<p>
+            <div style="display: flex;">
+                <div class="container Image">
+                    <img src="wigooolan.jpg" alt="">
+                   
+                </div>
+                <div class="p2" style="width: 500px;padding-top: 50px;"> 
+                    <p2 style="width: 100%;">
+                    We are the exclusive dealer / distributor for the TOYOTA and HINO brands in Sri Lanka and a fully owned subsidiary of Toyota Tsusho Corporation (TTC), Japan. Hence, we are a global member company of the prestigious Toyota Group, Japan.Embracing the traditions and passing it on to future generations, while reaching global destinations, Toyota Lanka is the only automobile company in the country to be 100% owned by its true Japanese ‘parent’ company, the Toyota Group. This global backing makes Toyota Lanka a truly global corporate entity, contributing to its customers, corporates, society and country.
+                </p2>
+            </div>
+
+            </div>
+        
+       
+
+    </div>
+
+    <script src="scripts.js"></script>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>
+                    We are committed to providing the best services to our customers. 
+                    Our team is dedicated to delivering quality products and excellent customer service.
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>
+                    1234 Street Name,<br>
+                    City, State, 12345<br>
+                    Email: info@example.com<br>
+                    Phone: (123) 456-7890
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
